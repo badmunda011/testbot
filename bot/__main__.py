@@ -95,8 +95,8 @@ async def stats(_, message):
 
 async def start(client, message):
     buttons = ButtonMaker()
-    buttons.ubutton("🛠️ Updates", "https://t.me/LegendUnion")
-    buttons.ubutton("😘 Use Me", "https://t.me/PublicLeechDL")
+    buttons.ubutton("🛠️ ᴜᴘᴅᴀᴛᴇ", "https://t.me/PBX_PERMOT")
+    buttons.ubutton("😘 ᴜsᴇʀ ᴍᴇ", "https://t.me/PUNJABI_CHATTING_HUB")
     reply_markup = buttons.build_menu(2)
     if await CustomFilters.authorized(client, message):
         start_string = f"""
